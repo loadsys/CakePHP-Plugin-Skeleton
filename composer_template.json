@@ -1,0 +1,28 @@
+{
+  "name": "loadsys/{PLUGIN_COMPOSER_NAME}",
+  "type": "cakephp-plugin",
+  "description": "",
+  "keywords": [
+    "cakephp"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/loadsys/{PLUGIN_NAME}",
+  "authors": [
+    {
+      "name": "First Person",
+      "homepage": "https://www.google.com/",
+      "email": "first@loadsys.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/loadsys/{PLUGIN_NAME}/issues",
+    "source": "https://github.com/loadsys/{PLUGIN_NAME}"
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "{PLUGIN_SHORT_NAME"
+  }
+}
