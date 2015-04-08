@@ -31,10 +31,10 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
  * Visit: https://coveralls.io/
  * Add the plugin, via the "Add Repos" button
  * Set the settings for the Plugin to:
-  * NO: Leave Comments
-  * YES: Use Status API
-  * Coverage Threshold for Failure: internal recommendation is 70% but you can and should set it higher as you add code coverage
-  * Coverage Decrease Threshold for Failure: internal recommendation is 5% but you can set it lower as you add code coverage
+ * NO: Leave Comments
+ * YES: Use Status API
+ * Coverage Threshold for Failure: internal recommendation is 70% but you can and should set it higher as you add code coverage
+ * Coverage Decrease Threshold for Failure: internal recommendation is 5% but you can set it lower as you add code coverage
 
 * To add the plugin to Packagist for use with Composer:
  * Portions of this can be done by any user, some steps require a GitHub admin
