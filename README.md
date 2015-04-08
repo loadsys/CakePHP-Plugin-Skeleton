@@ -16,6 +16,9 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
 * `{PLUGIN_NAME}` is the name of the repo on GitHub, ie. this plugin is `CakePHP-Plugin-Skeleton`
 * `{PLUGIN_SHORT_NAME}` is the name of the plugin as installed in CakePHP, ie. this plugin would be `Skeleton`
 * `{PLUGIN_COMPOSER_NAME}` is the name of the plugin as availble through Composer and Packagist, ie this plugin would be `cakephp-plugin-skeleton`
+* The Composer name once published on Packagist can not be changed, so ensure you get this right the first time.
+* The Loadsys Standard is to use the name of the repo in lower case and dashes to separate words, ie: `loadsys/cakephp-something-words-here`
+* Refer to the [Packagist about page](https://packagist.org/about) for more information on Packagist naming conventions
 * Finish filling out the `README.md`
 * To add the plugin to Travis:
  * note a user with GitHub admin credetionals for the plugin must do this step
