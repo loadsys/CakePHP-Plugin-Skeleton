@@ -44,6 +44,11 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
  * Have a GitHub admin ensure the Callback is set so Packagist will be auto-updated with new versions and branches
  * Recommendation is to have at least two people listed as maintainers on every plugin published via Packagist
 
+* Create a GitHub Token
+ * Create a GitHub Token that has only read only access to your public repos
+ * Visit: https://github.com/settings/tokens/new
+ * Create a token with only the `public_repo` checked
+
 ## Contributing
 
 ### Reporting Issues
