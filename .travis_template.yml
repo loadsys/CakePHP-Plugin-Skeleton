@@ -37,10 +37,11 @@ matrix:
       - CAKE_VERSION=2.6
       - PHPCS=1
 
-cache:
-  directories:
-    - vendor
-    - $HOME/.composer/cache
+# Travis Caching Breaks Coveralls
+# cache:
+#   directories:
+#     - vendor
+#     - $HOME/.composer/cache
 
 install:
   - composer config -g github-oauth.github.com $GITHUB_TOKEN
