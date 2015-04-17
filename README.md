@@ -44,6 +44,17 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
  * Have a GitHub admin ensure the Callback is set so Packagist will be auto-updated with new versions and branches
  * Recommendation is to have at least two people listed as maintainers on every plugin published via Packagist
 
+* Create a GitHub Token
+ * Create a GitHub Token that has only read/write access to your public repos
+ * Visit: https://github.com/settings/tokens/new
+ * Create a token with only the `public_repo` checked, please ensure only this scope is checked
+ * Copy the token
+ * Navigate via the command line to the git repo for your Plugin's code
+ * Install if you haven't already the travis gem, via: `gem install travis`
+ * Encrypt the token using the CLI: `travis encrypt 'GITHUB_TOKEN={TOKEN_FROM_GITHUB}'`
+ * Note if you wish to not use a Github token you can, however we have issues with Travis hitting GitHub's public API limits, the provided `.travis.yml` will need to be changed to support this however.
+ * The Github token is encrypted and only stored/published in it's encrypted format, you can explore the [Travis docs for more information into the encrypt CLI](http://docs.travis-ci.com/user/encryption-keys/) if you have more questions.
+
 ## Contributing
 
 ### Reporting Issues

@@ -13,6 +13,9 @@ env:
     - PLUGIN_NAME={PluginName}
     - REQUIRE=""
     - PHPCS_ARGS="-p --extensions=php --standard=vendor/loadsys/loadsys_codesniffer/Loadsys --ignore=vendor/ ."
+    - secure: "{GITHUB_TOKEN}"
+    # Generated using:
+    # `travis encrypt 'GITHUB_TOKEN=your_read_only_public_repos_only_token_here'`
 
   matrix:
     - DB=mysql CAKE_VERSION=2.3
@@ -30,22 +33,24 @@ matrix:
       - CAKE_VERSION=2.6
     - php: 5.6
       env:
-        - DB=mysql
-        - CAKE_VERSION=2.6
-        - PHPCS=1
+      - DB=mysql
+      - CAKE_VERSION=2.6
+      - PHPCS=1
 
-cache:
-  directories:
-    - vendor
-    - $HOME/.composer/cache
+# Travis Caching Breaks Coveralls
+# cache:
+#   directories:
+#     - vendor
+#     - $HOME/.composer/cache
 
-before_install:
-  - composer self-update
+install:
+  - composer config -g github-oauth.github.com $GITHUB_TOKEN
+  - git clone -b master https://github.com/FriendsOfCake/travis.git --depth 1 ../travis
+  - 'sed -i'''' ''s|curl |curl -H "Authorization: token \$GITHUB_TOKEN" |g'' ../travis/before_script.sh'
 
 before_script:
-  - git clone -b master https://github.com/FriendsOfCake/travis.git --depth 1 ../travis
   - ../travis/before_script.sh
-  - composer require --dev --no-interaction --prefer-source loadsys/loadsys_codesniffer=*
+  - composer require --no-interaction loadsys/loadsys_codesniffer:*
 
 script:
   - ../travis/script.sh
