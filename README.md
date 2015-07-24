@@ -65,11 +65,11 @@ Please use [GitHub Isuses](https://github.com/loadsys/CakePHP-Plugin-Skeleton/is
 
 When developing this plugin, please fork and issue a PR for any new development.
 
-## License ##
+## License
 
 [MIT](https://github.com/loadsys/CakePHP-Plugin-Skeleton/blob/master/LICENSE.md)
 
 
-## Copyright ##
+## Copyright
 
 [Loadsys Web Strategies](http://www.loadsys.com) 2015

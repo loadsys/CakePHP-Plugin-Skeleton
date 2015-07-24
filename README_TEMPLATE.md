@@ -42,11 +42,11 @@ The Complete Test Suite for the plugin can be run via this command:
 
 `./lib/Cake/Console/cake test {PLUGIN_SHORT_NAME} All{PLUGIN_SHORT_NAME}s`
 
-## License ##
+## License
 
 [MIT](https://github.com/loadsys/{PLUGIN_NAME}/blob/master/LICENSE.md)
 
 
-## Copyright ##
+## Copyright
 
 [Loadsys Web Strategies](http://www.loadsys.com) 2015
