@@ -3,8 +3,8 @@
 <!--
 [![Latest Version](https://img.shields.io/github/release/loadsys/{PLUGIN_NAME}.svg?style=flat-square)](https://github.com/loadsys/{PLUGIN_NAME}/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://travis-ci.org/loadsys/{PLUGIN_NAME}.svg?branch=master&style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
-[![Coverage Status](https://coveralls.io/repos/loadsys/{PLUGIN_NAME}/badge.svg)](https://coveralls.io/r/loadsys/{PLUGIN_NAME})
+[![Build Status](https://img.shields.io/travis/loadsys/{PLUGIN_NAME}/master.svg?style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
+[![Coverage Status](https://img.shields.io/coveralls/loadsys/{PLUGIN_NAME}/master.svg)](https://coveralls.io/r/loadsys/{PLUGIN_NAME})
 [![Total Downloads](https://img.shields.io/packagist/dt/loadsys/{PLUGIN_COMPOSER_NAME}.svg?style=flat-square)](https://packagist.org/packages/loadsys/{PLUGIN_COMPOSER_NAME})
 -->
 
