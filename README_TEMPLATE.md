@@ -2,6 +2,8 @@
 
 <!--
 [![Latest Version](https://img.shields.io/github/release/loadsys/{PLUGIN_NAME}.svg?style=flat-square)](https://github.com/loadsys/{PLUGIN_NAME}/releases)
+**or**
+[![Packagist Version](https://img.shields.io/packagist/v/loadsys/{PLUGIN_COMPOSER_NAME}.svg?style=flat-square)](https://packagist.org/packages/loadsys/{PLUGIN_COMPOSER_NAME})
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/loadsys/{PLUGIN_NAME}/master.svg?style=flat-square)](https://travis-ci.org/loadsys/CakePHP-SocialLinks)
 [![Coverage Status](https://img.shields.io/coveralls/loadsys/{PLUGIN_NAME}/master.svg)](https://coveralls.io/r/loadsys/{PLUGIN_NAME})
