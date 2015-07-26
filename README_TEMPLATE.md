@@ -20,7 +20,7 @@ Basic description of the plugin
 $ composer require loadsys/{PLUGIN_COMPOSER_NAME}:{VERSION}
 ````
 
-## Usage ##
+## Usage
 
 * Add this plugin to your application by adding this line to your bootstrap.php
 
