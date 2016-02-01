@@ -10,6 +10,7 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
 * Move the `README_TEMPLATE.md` to your new plugin repo as `README.md`
 * Move the `.travis_template.yml` to your new plugin repo as `.travis.yml`
 * Move the `.composer_template.json` to your new plugin repo as `.composer.json`
+* Move the `CODE_OF_CONDUCT.md` to your new plugin repo as `CODE_OF_CONDUCT.md`
 
 * Edit each of the above files
 * The majority of the changes are the `{PLUGIN_SHORT_NAME}` and `{PLUGIN_NAME}` and `{PLUGIN_COMPOSER_NAME}` tags to be replaced
@@ -56,6 +57,10 @@ Basic Skeleton for developing and creation of Loadsys CakePHP Plugins
  * The Github token is encrypted and only stored/published in it's encrypted format, you can explore the [Travis docs for more information into the encrypt CLI](http://docs.travis-ci.com/user/encryption-keys/) if you have more questions.
 
 ## Contributing
+
+### Code of Conduct
+
+This project has adopted the Contributor Covenant as its [code of conduct](CODE_OF_CONDUCT.md). All contributors are expected to adhere to this code. [Translations are available](http://contributor-covenant.org/).
 
 ### Reporting Issues
 
